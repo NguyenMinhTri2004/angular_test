@@ -1,0 +1,64 @@
+.order-summary {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-left: 1px solid #ddd;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.order-summary h2 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+.order-summary .totals {
+  margin-top: 20px;
+}
+.order-summary .totals .total-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.order-summary .totals .total-item .label {
+  color: #888;
+}
+.order-summary .totals .total-item .value {
+  font-weight: bold;
+}
+.order-summary .totals .total-item.total .value {
+  color: #ff6f00;
+  font-size: 18px;
+}
+.order-summary .checkout {
+  margin-top: 20px;
+  text-align: center;
+}
+.order-summary .checkout button {
+  padding: 10px 20px;
+  background-color: #ff6f00;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.receipt {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 20px;
+}
+.receipt .section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.receipt .section.total {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.receipt .divider {
+  border-top: 1px dashed #ccc;
+  margin: 20px 0;
+}
